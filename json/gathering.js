@@ -1,0 +1,154 @@
+// 业务指导数据
+export const pageData = {
+    // 数据概览
+    dataOverview: [{
+        name: '今日数据增长量',
+        value: 12
+    }, {
+        name: '资源订阅量',
+        value: 21
+    }, {
+        name: '今日共享数据量',
+        value: 14
+    }, {
+        name: '今日订阅推送量',
+        value: 8
+    }, {
+        name: '今日接入数据量',
+        value: 3
+    }],
+    // 数据共享交换变化趋势
+    sharedDataTrend: [{
+        name: '1月',
+        value: 20
+    }, {
+        name: '2月',
+        value: 22
+    }, {
+        name: '3月',
+        value: 25
+    }, {
+        name: '4月',
+        value: 33
+    }, {
+        name: '5月',
+        value: 36
+    }, {
+        name: '6月',
+        value: 31
+    }, {
+        name: '7月',
+        value: 28
+    }],
+    // 时间间隔
+    timeInterval: [{
+        name: '小时',
+        type: 'hour',
+        select: false
+    }, {
+        name: '日',
+        type: 'day',
+        select: false
+    }, {
+        name: '月',
+        type: 'month',
+        select: true
+    }],
+    // 数据资源部门排行
+    dataDepartRank: [{
+        name: '安防研发部',
+        value: 300
+    }, {
+        name: '数字政通',
+        value: 260
+    }, {
+        name: '综合管理处',
+        value: 210
+    }, {
+        name: '环境卫生处',
+        value: 160
+    }, {
+        name: '110联动工作处',
+        value: 110
+    }],
+    // 资源目录鲜活度
+    resourceDirectory: [{
+        name: '定时更新',
+        value: '76'
+    }, {
+        name: '定期更新',
+        value: 18
+    }, {
+        name: '每年更新',
+        value: 6
+    }],
+    // 数据服务
+    dataService: [{
+        name: 'API请求数',
+        value: 20,
+        decrease: '5%'
+    }, {
+        name: '订阅推送数',
+        value: 15,
+        decrease: '2%'
+    }, {
+        name: '共享任务交换数',
+        value: 32,
+        increase: '13%'
+    }, {
+        name: '应用授权数',
+        value: 6,
+        decrease: '1%'
+    }],
+    // 融合交换
+    fusionExchangeData: [{
+        name: '资源接入类型',
+        image: '../../images/dataGatheringImg/资源接入.png',
+        data: [{
+            name: 'rest服务',
+            value: '64'
+        }, {
+            name: '抽库',
+            value: '36'
+        }]
+    }, {
+        name: '共享交换任务类型',
+        image: '../../images/dataGatheringImg/共享交换.png',
+        data: [{
+            name: '订阅任务',
+            value: '64'
+        }, {
+            name: '调度任务',
+            value: '36'
+        }]
+    }],
+    // 资源目录共享类型
+    shareType: [{
+        name: '有条件共享',
+        value: 15
+    }, {
+        name: '无条件共享',
+        value: 11
+    }, {
+        name: '不予共享',
+        value: 9
+    }],
+    // 数据总览
+    earthData: [{
+        name: '资源目录',
+        value: 41,
+        image: '../../images/dataGatheringImg/资源目录.png'
+    }, {
+        name: '接入部门',
+        value: 7,
+        image: '../../images/dataGatheringImg/接入部门.png'
+    }, {
+        name: '注册用户数',
+        value: 16,
+        image: '../../images/dataGatheringImg/注册用户数.png'
+    }, {
+        name: 'API服务数',
+        value: 9,
+        image: '../../images/dataGatheringImg/API服务数.png'
+    }]
+}

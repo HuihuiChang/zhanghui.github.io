@@ -1,0 +1,513 @@
+{
+  "id": "2202615",
+  "name": "hwsj-pc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "环卫升级pc端",
+  "glyphs": [
+    {
+      "icon_id": "19877311",
+      "name": "hwsj_app_40_dbzy",
+      "font_class": "hwsj_app_40_dbzy",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "19546363",
+      "name": "hwsj_app_39_pm",
+      "font_class": "hwsj_app_39_pm",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "19546364",
+      "name": "hwsj_app_38_rlt",
+      "font_class": "hwsj_app_38_rlt",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "19533010",
+      "name": "hwsj_app_02_ssgy",
+      "font_class": "hwsj_app_02_ssgy",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "19533011",
+      "name": "hwsj_app_05_ljzz",
+      "font_class": "hwsj_app_05_ljzz",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "19533012",
+      "name": "hwsj_app_04_ljsy",
+      "font_class": "hwsj_app_04_ljsy",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "19533013",
+      "name": "hwsj_app_09_ryjg",
+      "font_class": "hwsj_app_09_ryjg",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "19533014",
+      "name": "hwsj_app_13_fltf",
+      "font_class": "hwsj_app_13_fltf",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19533015",
+      "name": "hwsj_app_01_ssdt",
+      "font_class": "hwsj_app_01_ssdt",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "19533016",
+      "name": "hwsj_app_12_jcss",
+      "font_class": "hwsj_app_12_jcss",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19533017",
+      "name": "hwsj_app_17_ljfl",
+      "font_class": "hwsj_app_17_ljfl",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "19533018",
+      "name": "hwsj_app_16_hwbj",
+      "font_class": "hwsj_app_16_hwbj",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "19533019",
+      "name": "hwsj_app_10_gcjg",
+      "font_class": "hwsj_app_10_gcjg",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "19533020",
+      "name": "hwsj_app_18_hwaj",
+      "font_class": "hwsj_app_18_hwaj",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "19533021",
+      "name": "hwsj_app_20_rwcq",
+      "font_class": "hwsj_app_20_rwcq",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "19533022",
+      "name": "hwsj_app_15_flcz",
+      "font_class": "hwsj_app_15_flcz",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "19533023",
+      "name": "hwsj_app_21_rwgz",
+      "font_class": "hwsj_app_21_rwgz",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "19533024",
+      "name": "hwsj_app_25_hz",
+      "font_class": "hwsj_app_25_hz",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "19533025",
+      "name": "hwsj_app_30_tfd",
+      "font_class": "hwsj_app_30_tfd",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "19533026",
+      "name": "hwsj_app_24_lz",
+      "font_class": "hwsj_app_24_lz",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "19533027",
+      "name": "hwsj_app_22_khdj",
+      "font_class": "hwsj_app_22_khdj",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "19533028",
+      "name": "hwsj_app_31_jgqy",
+      "font_class": "hwsj_app_31_jgqy",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "19533029",
+      "name": "hwsj_app_23_wtzg",
+      "font_class": "hwsj_app_23_wtzg",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "19533030",
+      "name": "hwsj_app_29_jmxq",
+      "font_class": "hwsj_app_29_jmxq",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "19533031",
+      "name": "hwsj_app_33_bj",
+      "font_class": "hwsj_app_33_bj",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "19533032",
+      "name": "hwsj_app_19_zhpj",
+      "font_class": "hwsj_app_19_zhpj",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "19533033",
+      "name": "hwsj_app_32_jrgk",
+      "font_class": "hwsj_app_32_jrgk",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "19533034",
+      "name": "hwsj_app_32_",
+      "font_class": "hwsj_app_32_",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "19533035",
+      "name": "hwsj_app_14_flsy",
+      "font_class": "hwsj_app_14_flsy",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "19533036",
+      "name": "hwsj_pc_26_sygjt",
+      "font_class": "hwsj_pc_26_sygjt",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "19533037",
+      "name": "hwsj_app_37_kf",
+      "font_class": "hwsj_app_37_kf",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "19533038",
+      "name": "hwsj_app_36_dbgl",
+      "font_class": "hwsj_app_36_dbgl",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "19533039",
+      "name": "hwsj_app_03_ssjxzy",
+      "font_class": "hwsj_app_03_ssjxzy",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "19533040",
+      "name": "hwsj_app_34_gl",
+      "font_class": "hwsj_app_34_gl",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "19533041",
+      "name": "hwsj_app_27_sysj",
+      "font_class": "hwsj_app_27_sysj",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "19533042",
+      "name": "hwsj_app_28_ljlxt",
+      "font_class": "hwsj_app_28_ljlxt",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "18247156",
+      "name": "hwsj_pc_22_qjss",
+      "font_class": "hwsj_pc_22_qjss",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "18247157",
+      "name": "hwsj_pc_24_bf",
+      "font_class": "hwsj_pc_24_bf",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "18247158",
+      "name": "hwsj_pc_23_fhsj",
+      "font_class": "hwsj_pc_23_fhsj",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "18247159",
+      "name": "hwsj_pc_25_zt",
+      "font_class": "hwsj_pc_25_zt",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "18247160",
+      "name": "hwsj_pc_27_scd",
+      "font_class": "hwsj_pc_27_scd",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "18247161",
+      "name": "hwsj_pc_29_up",
+      "font_class": "hwsj_pc_29_up",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "18247162",
+      "name": "hwsj_pc_26_qbqc",
+      "font_class": "hwsj_pc_26_qbqc",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "18247163",
+      "name": "hwsj_pc_31_left",
+      "font_class": "hwsj_pc_31_left",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "18247164",
+      "name": "hwsj_pc_30_down",
+      "font_class": "hwsj_pc_30_down",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "18247165",
+      "name": "hwsj_pc_33_gb",
+      "font_class": "hwsj_pc_33_gb",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "18247166",
+      "name": "hwsj_pc_34_sx",
+      "font_class": "hwsj_pc_34_sx",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "18247167",
+      "name": "hwsj_pc_28_zdy",
+      "font_class": "hwsj_pc_28_zdy",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "18247168",
+      "name": "hwsj_pc_35_jz",
+      "font_class": "hwsj_pc_35_jz",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "18247169",
+      "name": "hwsj_pc_32_right",
+      "font_class": "hwsj_pc_32_right",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "18247170",
+      "name": "hwsj_pc_36_data",
+      "font_class": "hwsj_pc_36_data",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "18215651",
+      "name": "hwsj_pc_01_xx",
+      "font_class": "hwsj_pc_01_xx",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "18215652",
+      "name": "hwsj_pc_02_ltsx",
+      "font_class": "hwsj_pc_02_ltsx",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "18215653",
+      "name": "hwsj_pc_03_bzxx",
+      "font_class": "hwsj_pc_03_bzxx",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "18215654",
+      "name": "hwsj_pc_06_lkcz",
+      "font_class": "hwsj_pc_06_lkcz",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "18215655",
+      "name": "hwsj_pc_07_jrzj",
+      "font_class": "hwsj_pc_07_jrzj",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "18215656",
+      "name": "hwsj_pc_10_tjfx-09",
+      "font_class": "hwsj_pc_10_tjfx-09",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "18215657",
+      "name": "hwsj_pc_10_tjfx-10",
+      "font_class": "hwsj_pc_10_tjfx-10",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "18215658",
+      "name": "hwsj_pc_11_bj",
+      "font_class": "hwsj_pc_11_bj",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "18215659",
+      "name": "hwsj_pc_12_lssj",
+      "font_class": "hwsj_pc_12_lssj",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "18215660",
+      "name": "hwsj_pc_14_zh",
+      "font_class": "hwsj_pc_14_zh",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "18215661",
+      "name": "hwsj_pc_16_rgbj",
+      "font_class": "hwsj_pc_16_rgbj",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "18215662",
+      "name": "hwsj_pc_04_cj",
+      "font_class": "hwsj_pc_04_cj",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "18215663",
+      "name": "hwsj_pc_05_qycc",
+      "font_class": "hwsj_pc_05_qycc",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "18215664",
+      "name": "hwsj_pc_15_jxzy",
+      "font_class": "hwsj_pc_15_jxzy",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "18215665",
+      "name": "hwsj_pc_18_qyzz",
+      "font_class": "hwsj_pc_18_qyzz",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "18215666",
+      "name": "hwsj_pc_19_GIS",
+      "font_class": "hwsj_pc_19_GIS",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "18215667",
+      "name": "hwsj_pc_08_gjhf",
+      "font_class": "hwsj_pc_08_gjhf",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "18215668",
+      "name": "hwsj_pc_17_gcbj",
+      "font_class": "hwsj_pc_17_gcbj",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "18215669",
+      "name": "hwsj_pc_21_clcx",
+      "font_class": "hwsj_pc_21_clcx",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "18215670",
+      "name": "hwsj_pc_20_sp",
+      "font_class": "hwsj_pc_20_sp",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "18215671",
+      "name": "hwsj_pc_13_tcd",
+      "font_class": "hwsj_pc_13_tcd",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}

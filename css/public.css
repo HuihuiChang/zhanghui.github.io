@@ -1,0 +1,374 @@
+/* 公共 */
+html,
+body {
+    color: #333;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'customFont';
+    user-select: none;
+}
+
+body,
+div,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+dl,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'customFont';
+    src: url('./时尚中黑简体.TTF');
+}
+
+/* 细滚动条样式 */
+.custom-scroll::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .3);
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background: rgba(255, 255, 255, .02);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .3);
+    /* background: linear-gradient(to bottom, rgba(15, 16, 20, 0.9) 0%, rgba(255, 255, 255, .09) 10%, rgba(15, 16, 20, 0.9) 100%); */
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('./iconfont/环卫升级iconfont/iconfont.eot');
+    src: url('./iconfont/环卫升级iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./iconfont/环卫升级iconfont/iconfont.woff2') format('woff2'),
+        url('./iconfont/环卫升级iconfont/iconfont.woff') format('woff'),
+        url('./iconfont/环卫升级iconfont/iconfont.ttf') format('truetype'),
+        url('./iconfont/环卫升级iconfont/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./weatherIcon/iconfont.eot');
+    src: url('./weatherIcon/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./weatherIcon/iconfont.woff2') format('woff2'),
+        url('./weatherIcon/iconfont.woff') format('woff'),
+        url('./weatherIcon/iconfont.ttf') format('truetype'),
+        url('./weatherIcon/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.weather-icon{
+    margin-right: 10px;
+}
+.ivu-modal .ivu-modal-body {
+    padding: 15px;
+    position: relative;
+}
+
+.ivu-modal .ivu-modal-content {
+    background: rgba(15, 16, 20, 0.9);
+}
+
+.ivu-icon.ivu-icon-ios-close {
+    display: none;
+}
+
+.ivu-modal-header {
+    border-bottom: none;
+    /* border-bottom:1px solid rgb(47, 48, 52) ; */
+    padding: 20px 15px 0px 15px;
+
+}
+
+
+.ivu-modal-header-inner {
+    width: auto;
+    height: 100%;
+    color: #fff;
+    background: #1cb16c;
+    padding: 0 5px;
+    position: relative;
+    line-height: 25px;
+
+}
+
+.ivu-modal-footer {
+    display: none;
+}
+
+.ivu-modal-header .madel-head {
+    width: auto;
+    height: 100%;
+    color: #fff;
+    background: #1cb16c;
+    position: relative;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.ivu-modal-header .madel-head .env-title-triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid #111;
+    border-left: 10px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.region-search-vehicle .env-rant {
+    width: 5px;
+    height: 5px;
+    border: 1px solid rgb(47, 48, 52);
+    position: absolute;
+    right: 15px;
+    top: -8px;
+}
+
+.region-search-vehicle .env-unit {
+    width: 250px;
+    height: 1px;
+    border-bottom: 1px solid rgb(47, 48, 52);
+    position: absolute;
+    top: -3px;
+    left: 15px;
+}
+
+.region-search-vehicle .ivu-modal-content.ivu-modal-content-no-mask.ivu-modal-content-drag {
+    width: 280px !important;
+    right: 0;
+}
+
+/* .ivu-modal-wrap.region-search-vehicle.ivu-modal-no-mask{
+    width: 100%;
+    height: 100%;
+} */
+.region-search-vehicle .ivu-modal {
+    width: auto !important;
+    /* position: absolute;
+    right: 350px; */
+    /* right: -1568px; */
+}
+
+.region-search-vehicle .env-title-triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid #111;
+    border-left: 10px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+/* .ivu-modal-header .madel-head .env-triant{
+    width: 0;
+    height: 0;
+    border-top: 13px solid  red;
+    border-right: 13px solid transparent;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    z-index: 123;
+} */
+.el-date-table td.current:not(.disabled) span {
+    background-color: #1cb16c;
+}
+
+.el-date-table td.next-month span,
+.el-date-table td.prev-month span {
+    color: rgba(255, 255, 255, .3);
+}
+
+.el-date-table td span {
+    color: rgba(255, 255, 255, .7);
+
+}
+
+.el-date-table td.end-date span,
+.el-date-table td.start-date span {
+    background: #1cb16c;
+}
+
+.el-date-table td.today span {
+    color: #1cb16c;
+}
+
+/* .el-date-picker .el-picker-panel__footer .el-button:hover{
+    background: #1cb16c;
+    color: #fff;
+    border: transparent;
+} */
+.el-date-picker .el-picker-panel__footer .el-button.is-plain {
+    background: #1cb16c;
+    color: #fff;
+    border: transparent;
+    border-radius: 0;
+}
+
+.el-picker-panel__footer .el-button--text {
+    color: #1cb16c;
+}
+
+.el-date-picker__time-header {
+    border-color: #393939;
+}
+
+.el-picker-panel__footer {
+    border-color: #393939;
+
+}
+
+.el-date-table td.in-range div,
+.el-date-table td.in-range div:hover {
+    background-color: #393939;
+}
+
+/*********** message start **************/
+
+.el-message{
+    min-width: 260px;
+    border-color: rgba(22, 255, 239, 0.1) !important;
+    background: rgba(16, 43, 71,.4) !important;
+}
+.el-message .el-message__content{
+    color: #16fff1 !important;
+}
+.el-message--success .el-icon-success{
+    color: #16fff1 !important;
+}
+
+/*********** message end **************/
+
+
+.el-button.is-disabled {
+    background-color: #101115 !important;
+    border-color: #1cb16c;
+}
+
+.el-button.is-disabled:hover {
+    background-color: #101115 !important;
+    border-color: #1cb16c;
+}
+
+.el-select-dropdown {
+    overflow: hidden;
+}
+
+.el-select-dropdown__empty {
+    background: rgba(15, 16, 20, 1);
+}
+
+.el-form-item:hover .start-date-icon {
+    display: none;
+}
+
+.el-form-item:hover .end-date-icon {
+    display: none;
+}
+
+.el-picker-panel__icon-btn {
+    color: #fff;
+}
+
+.el-date-picker__header-label:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-arrow-left:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-d-arrow-left:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-d-arrow-right:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-arrow-right:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-icon-d-arrow-left:hover {
+    color: #1cb16c;
+}
+
+.el-picker-panel__icon-btn.el-icon-d-arrow-right:hover {
+    color: #1cb16c;
+}
+
+.el-month-table td.today .cell {
+    color: #1cb16c;
+}
+
+
+
+/* 文字溢出 */
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

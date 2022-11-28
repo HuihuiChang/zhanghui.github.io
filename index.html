@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>化工园区IOC</title>
+
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/public.css">
+    <!-- 主页面 -->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body style="visibility: hidden; ">
+    <div class="cg-app" id="cgApp">
+        <!-- 页面头部 -->
+        <header class="page-header">
+            <!-- 左侧天气日期时间 -->
+            <div class="weather-date">
+                <div class="current-weather">
+                    <img :src="getWeatherIcon(weatherData.weather)" class="icon">
+                    <div class="weather">
+                        {{weatherData.weather}}
+                    </div>
+                    <div class="temperature">
+                        {{weatherData.temperature}}
+                    </div>
+                </div>
+                <div class="day-week">
+                    {{currentDate.week}}
+                </div>
+                <div class="current-date">
+                    {{currentDate.day}}
+                </div>
+                <div class="current-time">
+                    <div class="hour">{{currentDate.hour}} :</div>
+                    <div class="minutes">{{currentDate.minutes}} :</div>
+                    <div class="seconds">{{currentDate.seconds}}</div>
+                </div>
+            </div>
+            <!-- 中间大标题 -->
+            <div class="main-title">
+                {{systemName}}
+            </div>
+            <!-- 右侧个人设置信息 -->
+            <div class="setting-info">
+                <div class="setting">
+                    <div @click="">
+                        
+                    </div>
+                    <div @click="handleFullScreen">
+                        {{isFullScreen ? '退出全屏' : '全屏'}}
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 页面主题 -->
+        <main class="mix-circle">
+            <img src="./images/index/ball.png" class="ball">
+            <img src="./images/index/first-circle.png" class="first-circle">
+            <div v-show="isShow" v-for="(item,idx) in menuList" :key="idx" @click="handleJumpPage(item)"
+                :class="[item.class,idx === activeIndex ? 'active' : '','pointer', isTrans ? 'trans' : '']"
+                @mouseover="cancelHighLight" @mouseleave="turnHighLight">
+                <div class="content">
+                    <div class="chinese">{{item.chinese}}</div>
+                    <div class="english">{{item.english}}</div>
+                </div>
+            </div>
+            <img src="./images/index/outside-circle.png" class="outside-circle">
+            <img src="./images/index/second-circle.png" class="second-circle">
+            <img src="./images/index/third-circle.png" class="third-circle">
+            <img src="./images/index/forth-circle.png" class="forth-circle">
+            <img src="./images/index/half-circle.png" class="half-circle">
+            <img src="./images/index/logo-container.png" class="logo-container">
+            <img src="./images/index/logo.png" class="logo">
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="page-footer"></footer>
+    </div>
+
+
+    <!-- 公共插件 -->
+    <script src="./js/vue.min.js"></script>
+    <script src="./js/jq.min.js"></script>
+    <script src="./js/date.js"></script>
+    <script src="./js/vuehelper.js"></script>
+    <script src="./js/crypto-js.min.js"></script>
+    <script src="./js/hmac-sha256.min.js"></script>
+    <script src="./js/enc-base64.min.js"></script>
+    
+    <!-- 百度地图 -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=VbKzXyxu6sd4GYiFGM4uZLhw"></script>
+
+    <!-- 页面插件 -->
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

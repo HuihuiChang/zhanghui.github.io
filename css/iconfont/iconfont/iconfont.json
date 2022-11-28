@@ -1,0 +1,261 @@
+{
+  "id": "2202615",
+  "name": "hwsj-pc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "环卫升级pc端",
+  "glyphs": [
+    {
+      "icon_id": "18247156",
+      "name": "hwsj_pc_22_qjss",
+      "font_class": "hwsj_pc_22_qjss",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "18247157",
+      "name": "hwsj_pc_24_bf",
+      "font_class": "hwsj_pc_24_bf",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "18247158",
+      "name": "hwsj_pc_23_fhsj",
+      "font_class": "hwsj_pc_23_fhsj",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "18247159",
+      "name": "hwsj_pc_25_zt",
+      "font_class": "hwsj_pc_25_zt",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "18247160",
+      "name": "hwsj_pc_27_scd",
+      "font_class": "hwsj_pc_27_scd",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "18247161",
+      "name": "hwsj_pc_29_up",
+      "font_class": "hwsj_pc_29_up",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "18247162",
+      "name": "hwsj_pc_26_qbqc",
+      "font_class": "hwsj_pc_26_qbqc",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "18247163",
+      "name": "hwsj_pc_31_left",
+      "font_class": "hwsj_pc_31_left",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "18247164",
+      "name": "hwsj_pc_30_down",
+      "font_class": "hwsj_pc_30_down",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "18247165",
+      "name": "hwsj_pc_33_gb",
+      "font_class": "hwsj_pc_33_gb",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "18247166",
+      "name": "hwsj_pc_34_sx",
+      "font_class": "hwsj_pc_34_sx",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "18247167",
+      "name": "hwsj_pc_28_zdy",
+      "font_class": "hwsj_pc_28_zdy",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "18247168",
+      "name": "hwsj_pc_35_jz",
+      "font_class": "hwsj_pc_35_jz",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "18247169",
+      "name": "hwsj_pc_32_right",
+      "font_class": "hwsj_pc_32_right",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "18247170",
+      "name": "hwsj_pc_36_data",
+      "font_class": "hwsj_pc_36_data",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "18215651",
+      "name": "hwsj_pc_01_xx",
+      "font_class": "hwsj_pc_01_xx",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "18215652",
+      "name": "hwsj_pc_02_ltsx",
+      "font_class": "hwsj_pc_02_ltsx",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "18215653",
+      "name": "hwsj_pc_03_bzxx",
+      "font_class": "hwsj_pc_03_bzxx",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "18215654",
+      "name": "hwsj_pc_06_lkcz",
+      "font_class": "hwsj_pc_06_lkcz",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "18215655",
+      "name": "hwsj_pc_07_jrzj",
+      "font_class": "hwsj_pc_07_jrzj",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "18215656",
+      "name": "hwsj_pc_10_tjfx-09",
+      "font_class": "hwsj_pc_10_tjfx-09",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "18215657",
+      "name": "hwsj_pc_10_tjfx-10",
+      "font_class": "hwsj_pc_10_tjfx-10",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "18215658",
+      "name": "hwsj_pc_11_bj",
+      "font_class": "hwsj_pc_11_bj",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "18215659",
+      "name": "hwsj_pc_12_lssj",
+      "font_class": "hwsj_pc_12_lssj",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "18215660",
+      "name": "hwsj_pc_14_zh",
+      "font_class": "hwsj_pc_14_zh",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "18215661",
+      "name": "hwsj_pc_16_rgbj",
+      "font_class": "hwsj_pc_16_rgbj",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "18215662",
+      "name": "hwsj_pc_04_cj",
+      "font_class": "hwsj_pc_04_cj",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "18215663",
+      "name": "hwsj_pc_05_qycc",
+      "font_class": "hwsj_pc_05_qycc",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "18215664",
+      "name": "hwsj_pc_15_jxzy",
+      "font_class": "hwsj_pc_15_jxzy",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "18215665",
+      "name": "hwsj_pc_18_qyzz",
+      "font_class": "hwsj_pc_18_qyzz",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "18215666",
+      "name": "hwsj_pc_19_GIS",
+      "font_class": "hwsj_pc_19_GIS",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "18215667",
+      "name": "hwsj_pc_08_gjhf",
+      "font_class": "hwsj_pc_08_gjhf",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "18215668",
+      "name": "hwsj_pc_17_gcbj",
+      "font_class": "hwsj_pc_17_gcbj",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "18215669",
+      "name": "hwsj_pc_21_clcx",
+      "font_class": "hwsj_pc_21_clcx",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "18215670",
+      "name": "hwsj_pc_20_sp",
+      "font_class": "hwsj_pc_20_sp",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "18215671",
+      "name": "hwsj_pc_13_tcd",
+      "font_class": "hwsj_pc_13_tcd",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}
